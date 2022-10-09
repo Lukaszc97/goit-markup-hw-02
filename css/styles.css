@@ -1,48 +1,50 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --primary-backgraund-color: #ffffff;
+  --seconadary-background-color: #2f303a;
+  --white-text-color: #ffffff;
+  --main-theme-color: #2196f3;
+  --black-logo-color: #000000;
+  --footer-text-color: rgba(255, 255, 255, 0.6);
+  --team-background-color: #f5f4fa;
+}
 body {
   font-family: "Roboto", sans-serif;
   width: 1600px;
-  color: #212121;
+  color: var(--primary-text-color);
 }
 
 .logo {
   font-family: "Raleway", sans-serif;
   font-size: 26px;
   line-height: 1.17;
+  color: var(--black-logo-color);
 }
-span {
-  color: #2196f3;
+.logo-web {
+  color: var(--main-theme-color);
 }
-nav {
+.nav {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.17;
 }
-header > a[href^="mail:"] {
+.header-address {
   font-weight: 500;
-  color: #757575;
+  color: var(--secondary-text-color);
   line-height: 1.17;
-}
-header > a[href^="tel:"] {
-  font-weight: 500;
-  color: #757575;
-  line-height: 1.17;
-}
-header > a:hover {
-  color: #2196f3;
-}
-nav > ul > li {
-  display: inline-flex;
 }
 .order {
-  background-color: #2f303a;
+  background-color: var(--seconadary-background-color);
+  color: var(--white-text-color);
 }
 .order > button {
   font-weight: 700;
   font-size: 16px;
-  background-color: #2196f3;
-  color: #ffffff;
-  cursor: pointer;
   line-height: 1.87;
+  background-color: var(--main-theme-color);
+  color: var(--white-text-color);
+  cursor: pointer;
 }
 .lorem {
   font-size: 14px;
@@ -53,7 +55,7 @@ figcaption {
   line-height: 1.87;
 }
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--team-background-color);
 }
 
 filter > figcaption {
@@ -68,14 +70,16 @@ filter > figcaption {
 }
 .filter > ul > li > button:focus,
 button:hover {
-  background-color: #2196f3;
+  background-color: var(--main-theme-color);
 }
-footer {
-  background-color: #2f303a;
-  color: #ffffff;
-
+.footer {
+  background-color: var(--seconadary-background-color);
+  color: var(--white-text-color);
   font-size: 14px;
   line-height: 1.5;
+}
+.footer-link {
+  color: var(--footer-text-color);
 }
 
 ul > li {
@@ -91,39 +95,37 @@ a:visited {
   color: unset;
 }
 a:hover {
-  color: #2196f3;
+  color: var(--main-theme-color);
 }
 a:focus {
-  color: #2196f3;
+  color: var(--main-theme-color);
 }
 
 a:active {
-  color: #2196f3;
+  color: var(--main-theme-color);
 }
 
-h1 {
-  color: #ffffff;
+.h1-order {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
 }
-h2 {
+.h2-caption {
   font-weight: 700;
   font-size: 36px;
 }
-h3 {
+.h3-lorem {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.17;
 }
-h4 {
+.h4-team {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.17;
 }
-h5 {
+.h5-filter {
   font-weight: 700;
   font-size: 18px;
-  color: #212121;
   line-height: 2;
 }
