@@ -1,0 +1,125 @@
+body {
+  font-family: "Roboto", sans-serif;
+  width: 1600px;
+  color: #212121;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  line-height: 1.17;
+}
+span {
+  color: #2196f3;
+}
+nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+}
+header > a[href^="mail:"] {
+  font-weight: 500;
+  color: #757575;
+  line-height: 1.17;
+}
+header > a[href^="tel:"] {
+  font-weight: 500;
+  color: #757575;
+  line-height: 1.17;
+}
+header > a:hover {
+  color: #2196f3;
+}
+nav > ul > li {
+  display: inline-flex;
+}
+.order > button {
+  font-weight: 700;
+  font-size: 16px;
+  background-color: #2196f3;
+  color: #ffffff;
+  cursor: pointer;
+  line-height: 1.87;
+}
+.lorem {
+  font-size: 14px;
+  line-height: 1.5;
+}
+figcaption {
+  font-size: 16px;
+  line-height: 1.87;
+}
+.team {
+  background-color: #f5f4fa;
+}
+
+filter > figcaption {
+  font-size: 16px;
+  line-height: 1.17;
+}
+.filter > ul > li > button {
+  font-weight: 500;
+  font-size: 16px;
+  cursor: pointer;
+  line-height: 1.62;
+}
+.filter > ul > li > button:focus,
+button:hover {
+  background-color: #2196f3;
+}
+footer {
+  background-color: #2f303a;
+  color: #ffffff;
+
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+ul > li {
+  list-style-type: none;
+  display: inline-flex;
+}
+
+a:link {
+  text-decoration: none;
+  color: unset;
+}
+a:visited {
+  color: unset;
+}
+a:hover {
+  color: #2196f3;
+}
+a:focus {
+  color: #2196f3;
+}
+
+a:active {
+  color: #2196f3;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+}
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+}
+h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+}
+h4 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.17;
+}
+h5 {
+  font-weight: 700;
+  font-size: 18px;
+  color: #212121;
+  line-height: 2;
+}
