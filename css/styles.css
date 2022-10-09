@@ -35,6 +35,7 @@ nav > ul > li {
 }
 .order{
   background-color: #2F303A;
+  color: #ffffff;
 }
 .order > button {
   font-weight: 700;
