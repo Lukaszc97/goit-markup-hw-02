@@ -57,13 +57,7 @@ body {
 .team {
   background-color: var(--team-background-color);
 }
-
-.filter{
-  width: 1600px;
-}
-
-
-.filter > .figcaption {
+.figcaption {
   font-size: 16px;
   line-height: 1.17;
 }
@@ -91,7 +85,7 @@ button:hover {
   list-style-type: none;
   display: inline-flex;
 }
-.link a:link{
+.link a:link {
   text-decoration: none;
   color: unset;
 }
