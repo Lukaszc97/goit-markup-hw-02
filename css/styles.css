@@ -50,7 +50,7 @@ body {
   font-size: 14px;
   line-height: 1.5;
 }
-figcaption {
+.figcaption {
   font-size: 16px;
   line-height: 1.87;
 }
@@ -58,7 +58,12 @@ figcaption {
   background-color: var(--team-background-color);
 }
 
-filter > figcaption {
+.filter{
+  width: 1600px;
+}
+
+
+.filter > .figcaption {
   font-size: 16px;
   line-height: 1.17;
 }
@@ -82,26 +87,25 @@ button:hover {
   color: var(--footer-text-color);
 }
 
-ul > li {
+.list {
   list-style-type: none;
   display: inline-flex;
 }
-
-a:link {
+.link a:link{
   text-decoration: none;
   color: unset;
 }
-a:visited {
+.link a:visited {
   color: unset;
 }
-a:hover {
+.link a:hover {
   color: var(--main-theme-color);
 }
-a:focus {
+.link a:focus {
   color: var(--main-theme-color);
 }
 
-a:active {
+.link a:active {
   color: var(--main-theme-color);
 }
 
