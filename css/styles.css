@@ -50,16 +50,17 @@ body {
   font-size: 14px;
   line-height: 1.5;
 }
-.figcaption {
-  font-size: 16px;
-  line-height: 1.87;
-}
 .team {
   background-color: var(--team-background-color);
 }
+
 .figcaption {
   font-size: 16px;
   line-height: 1.17;
+}
+.figcaption2 {
+  font-size: 16px;
+  line-height: 1.87;
 }
 .filter > ul > li > button {
   font-weight: 500;
@@ -84,6 +85,7 @@ button:hover {
 .list {
   list-style-type: none;
   display: inline-flex;
+  flex-wrap: wrap;
 }
 .link a:link {
   text-decoration: none;
